@@ -1,0 +1,86 @@
+:root {
+  font-family: "Alice", serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #333333;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#local{
+    width: 1120px;
+    box-sizing: border-box;
+    margin: 88px auto;
+}
+
+.legenda{
+    color: #E1624F;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+h1{
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+img{
+    border-radius: 28px;
+    margin-bottom: 24px;
+}
+
+figcaption{
+    font-style: italic;
+    margin-bottom: 4px;
+    color: #333333;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+#conheca{
+    margin-bottom: 44px;
+}
+
+#descubra{
+    border-top: 1px solid #D9D9D9;
+}
+
+#titulo{
+    margin: 64px 0;
+}
+
+h2{
+    margin-bottom: 8px;
+    font-size: 32px;
+}
+
+h3{
+    font-size: 28px;
+}
+
+li.grande{
+    font-size: 32px;
+    margin-bottom: 4px;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: disc;
+}
+
+.azul{
+    color: blue;
+    margin: 0 0 48px 25px;
+}
+
+li{
+    margin-left: 25px;
+}
