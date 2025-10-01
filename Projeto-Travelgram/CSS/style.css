@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    font-weight: 400;
+    font-style: normal;
+    color: #6C6C6C;
+}
+
+#pagina{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+nav{
+    display: flex;
+    width: 325px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span:nth-child(2){
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 160%;
+    color: #EF5F4C;
+}
+
+section#perfil{
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+h1{
+    color: black;
+    font-size: 40px;
+}
+
+#texto-sobre{
+    line-height: 170%;
+}
+
+#resumo img{
+    margin-right: 32px;
+}
+
+#resumo{
+    display: flex;
+    width: 592px;
+    box-sizing: border-box;
+    margin-right: auto;
+}
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#locais{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 280px;
+    justify-content: space-between;
+    height: 104px;
+}
+
+.viagens{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#galeria{
+    padding: 24px 32px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+footer{
+    padding: 24px 32px;
+    display: flex;
+}
+
+#termos{
+    display: flex;
+    margin-left: auto;
+    width: 297px;
+    justify-content: space-between;
+}
