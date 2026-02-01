@@ -1,0 +1,42 @@
+section{
+    display: grid;
+    padding: 120px;
+    justify-content: center;
+    background-color: black;
+}
+
+#meus-servicos{
+    display: grid;
+    row-gap: 10px;
+    #meus-servicos-titulo{
+        justify-self: center;
+        color: var(--red);
+    }
+    #como-ajudar{
+        font: var(--title-md);
+        justify-self: center;
+        margin-bottom: 56px;
+    }
+}
+
+#servicos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    div{
+        border: 0.5px solid var(--gray-300);
+        display: grid;
+        row-gap: 10px;
+        padding: 15px;
+        border-radius: 5px;
+        width: 280px;
+        h6{
+            font: var(--title-sm);
+        }
+        img{
+            border-radius: 5px;
+            width: 48px;
+        }
+        overflow: hidden;
+    }
+}

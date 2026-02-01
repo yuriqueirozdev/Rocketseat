@@ -1,0 +1,49 @@
+footer{
+    display: grid;
+    padding: 120px;
+    justify-content: center;
+    background: url(../assets/imagens/Background_Intro.png) center / cover no-repeat;
+}
+
+#contato{
+    display: grid;
+    width: 420px;
+    row-gap: 10px;
+    row-gap: 10px;
+    p:nth-child(1){
+        justify-self: center;
+        color: var(--purple);
+    }
+    h3{
+        font: var(--title-md);
+        justify-self: center;
+    }
+    p{
+        justify-self: center;
+    }
+}
+
+#redes-sociais{
+    width: 350px;
+    margin-top: 48px;
+    display: grid;
+    justify-self: center;
+    .card{
+        display: grid;
+        border-radius: 10px;
+        padding: 10px;
+        grid-template-columns: 1fr 1fr;
+        background-color: var(--gray-400);
+        margin-bottom: 20px;
+    }
+    .icone{
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        span{
+            align-self: center;
+        }
+    }
+    .seta{
+        justify-self: end;
+    }
+}
