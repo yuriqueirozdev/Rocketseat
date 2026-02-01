@@ -1,0 +1,44 @@
+header{
+    background: url(../assets/imagens/Background_Intro.png) center / cover no-repeat;
+    display: grid;
+}
+
+#pessoa{
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 120px;
+    place-items: center;
+}
+
+#apresentacao{
+    margin-bottom: 80px;
+    display: grid;
+    place-items: center;
+    width: 680px;
+    img{
+        width: 112px;
+        border-radius: 50%;
+        margin-bottom: 54px;
+    }
+}
+
+#tecnologias{
+    display: grid;
+    grid-template-areas: "A B C D E F";
+    width: 754px;
+    justify-content: space-between;
+    div:not(.cor){
+        background-color: var(--gray-400);
+        border-radius: 20px;
+        padding-inline: 15px;
+        display: grid;
+        grid-auto-flow: column;
+        align-items: center;
+        gap: 8px;
+    }
+}
+
+#doubleArrow{
+    margin-top: 50px;
+}

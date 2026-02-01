@@ -1,0 +1,44 @@
+main{
+    display: grid;
+    padding: 75px;
+    justify-content: center;
+}
+
+#meu-trabalho{
+    display: grid;
+    row-gap: 10px;
+}
+
+#titulo-meu-trabalho{
+    justify-self: center;
+    color: var(--red);
+}
+
+#destaque{
+    font: var(--title-md);
+    justify-self: center;
+    margin-bottom: 56px;
+}
+
+#galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    div{
+        display: grid;
+        row-gap: 10px;
+        padding: 10px;
+        background-color: var(--gray-400);
+        border-radius: 5px;
+        width: 330px;
+        h6{
+            font: var(--title-sm);
+        }
+        img{
+            border-radius: 5px;
+            width: 306px;
+
+        }
+        overflow: hidden;
+    }
+}

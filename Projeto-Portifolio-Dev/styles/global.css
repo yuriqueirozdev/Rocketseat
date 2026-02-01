@@ -26,3 +26,27 @@
     --text-md: 400 16px/140% var(--font-family-3);
     --text-sm: 400 14px/140% var(--font-family-3);
 }
+
+body{
+    background-color: var(--gray-600);
+    color: var(--gray-100);
+}
+
+.red{
+    color: var(--red);
+}
+
+.title-lg{
+    font-family: var(--title-lg);
+    color: var(--gray-100);
+    margin-bottom: 20px;
+}
+
+.text-sm{
+    font-family: var(--text-sm);
+}
+
+.subtitle{
+    font-family: var(--subtitle);
+    margin-bottom: 8px;
+}
